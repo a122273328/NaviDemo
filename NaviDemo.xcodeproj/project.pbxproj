@@ -15,6 +15,7 @@
 		29808F9E1F42816B0007CDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29808F9C1F42816B0007CDEA /* LaunchScreen.storyboard */; };
 		29808FA91F42816C0007CDEA /* NaviDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29808FA81F42816C0007CDEA /* NaviDemoTests.m */; };
 		29808FB41F42816C0007CDEA /* NaviDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29808FB31F42816C0007CDEA /* NaviDemoUITests.m */; };
+		29808FCF1F4282A40007CDEA /* MapTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 29808FCE1F4282A40007CDEA /* MapTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		29808FAF1F42816C0007CDEA /* NaviDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29808FB31F42816C0007CDEA /* NaviDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviDemoUITests.m; sourceTree = "<group>"; };
 		29808FB51F42816C0007CDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29808FCD1F4282A40007CDEA /* MapTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTool.h; sourceTree = "<group>"; };
+		29808FCE1F4282A40007CDEA /* MapTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		29808F8D1F42816B0007CDEA /* NaviDemo */ = {
 			isa = PBXGroup;
 			children = (
+				29808FCD1F4282A40007CDEA /* MapTool.h */,
+				29808FCE1F4282A40007CDEA /* MapTool.m */,
 				29808F911F42816B0007CDEA /* AppDelegate.h */,
 				29808F921F42816B0007CDEA /* AppDelegate.m */,
 				29808F941F42816B0007CDEA /* ViewController.h */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					29808F8A1F42816B0007CDEA = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A4BV3MRDRT;
 						ProvisioningStyle = Automatic;
 					};
 					29808FA31F42816C0007CDEA = {
@@ -273,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29808FCF1F4282A40007CDEA /* MapTool.m in Sources */,
 				29808F961F42816B0007CDEA /* ViewController.m in Sources */,
 				29808F931F42816B0007CDEA /* AppDelegate.m in Sources */,
 				29808F901F42816B0007CDEA /* main.m in Sources */,
@@ -426,7 +433,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4BV3MRDRT;
 				INFOPLIST_FILE = NaviDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WZH.NaviDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +446,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4BV3MRDRT;
 				INFOPLIST_FILE = NaviDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WZH.NaviDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
